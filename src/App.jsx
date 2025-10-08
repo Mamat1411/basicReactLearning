@@ -1,17 +1,19 @@
 import './App.css'
 import Header from './Header'
-
-function Welcome() {
-  return (
-    <h1>Hello, this is welcome component</h1>
-  )
-}
+import UserCard from './UserCard'
+import Welcome from './Welcome'
 
 function App() {
   return (
     <div>
-      <Header />
-      <p>This is React's Main Page</p>
+      {/* <Header />
+      <p>This is React's Main Page</p> */}
+
+      {/* <Welcome name="Muhammad" />
+      <Welcome name="Mamat" /> */}
+
+      <UserCard name="Muhammad" age={26} />
+      <UserCard name="Mamat" age={26} />
     </div>
   )
 }
