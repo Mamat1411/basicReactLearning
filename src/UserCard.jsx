@@ -1,8 +1,8 @@
-function UserCard(props) {
+function UserCard({name, age}) {
     return (
         <div>
-            <h2>{props.name}</h2>
-            <p>Age: {props.age}</p>
+            <h2>{name}</h2>
+            <p>Age: {age}</p>
         </div>
     )
 }

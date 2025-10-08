@@ -14,6 +14,7 @@ function App() {
 
       <UserCard name="Muhammad" age={26} />
       <UserCard name="Mamat" age={26} />
+      <UserCard name="Mujahid" age={26} />
     </div>
   )
 }
